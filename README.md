@@ -33,6 +33,12 @@ Quiz App is designed to challenge users with interactive quizzes while engaging 
 
 ## Installation
 
+##  GIthub link 
+https://github.com/Suraj0791/testapp
+
+
+
+
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) (v14 or above)
@@ -43,8 +49,8 @@ Quiz App is designed to challenge users with interactive quizzes while engaging 
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repository-url>
-   cd quiz-app
+   git clone https://github.com/Suraj0791/testapp.git
+   cd testapp
 
 
 2.Install Dependencies:
@@ -65,7 +71,9 @@ npm run dev
 
 4. Open your browser and navigate to http://localhost:3000 to view the application.
 
-Project Structure
+## Project Structure
+
+```plaintext
 quiz-app/
 ├── app/
 │   ├── layout.js         # Global layout and metadata
