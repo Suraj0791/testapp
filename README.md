@@ -91,14 +91,20 @@ quiz-app/
 
 IMAGES AND VIDEOS
 ALL THE PHOTOS VIDEOS ARE IN PUBLIC FOLDER 
-![alt text](<Screenshot (696).png>)
 
-![](<Screenshot (697).png>)
+https://github.com/user-attachments/assets/9c49e1e1-d34a-4c48-b62e-781804ba3ba0
 
-![alt text](<Screenshot (698).png>)
-![alt text](<Screenshot (698)-1.png>)
+![Image](https://github.com/user-attachments/assets/548cac35-9ecb-4de5-a255-963ce5524778)
 
-<video controls src="quiz.mp4" title="Title"></video>
+![Image](https://github.com/user-attachments/assets/0445f15f-4018-4b91-afc4-af6e37378559)
+
+![Image](https://github.com/user-attachments/assets/9c683538-937f-4841-ba0d-69615f414146)
+
+![Image](https://github.com/user-attachments/assets/915b72e0-6550-457a-be12-720862f65a73)
+
+https://github.com/user-attachments/assets/61fa84d3-015d-4541-877e-b7ec23370967
+
+
 
 
 
