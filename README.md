@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Quiz Application
+
+A modern, gamified quiz application built with Next.js 13+ App Router that provides an engaging learning experience.
+
+## Features
+
+- 📱 Responsive modern UI with beautiful animations
+- 🎮 Gamification elements (points, progress tracking, achievements)
+- 📊 Detailed quiz results and performance analytics
+- ⚡ Real-time feedback and scoring
+- 🔄 Seamless API integration
+- 🎨 Clean and intuitive design
+
+## Tech Stack
+
+- Next.js 13+ (App Router)
+- Tailwind CSS
+- Shadcn/ui Components
+- Zustand (for complex state management)
+- Server Actions for API integration
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+\`\`\`bash
+git clone https://github.com/yourusername/quiz-app.git
+\`\`\`
 
-```bash
+2. Install dependencies:
+\`\`\`bash
+cd quiz-app
+npm install
+\`\`\`
+
+3. Run the development server:
+\`\`\`bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+\`\`\`
+quiz-app/
+├── app/
+│   ├── layout.js
+│   ├── page.js
+│   ├── quiz/
+│   │   ├── page.js
+│   │   ├── loading.js
+│   │   └── error.js
+│   └── results/
+│       └── page.js
+├── components/
+│   ├── ui/
+│   ├── quiz/
+│   │   ├── question-card.js
+│   │   ├── progress-bar.js
+│   │   ├── timer.js
+│   │   └── score-display.js
+│   └── shared/
+│       ├── loading-spinner.js
+│       └── error-message.js
+├── lib/
+│   ├── api.js
+│   └── utils.js
+├── store/
+│   └── quiz-store.js
+└── public/
+    └── assets/
+\`\`\`
 
-## Learn More
+## API Integration
 
-To learn more about Next.js, take a look at the following resources:
+The application fetches quiz data from the provided API endpoint. Error handling and data validation are implemented to ensure robust performance.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Gamification Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Point scoring system
+- Progress tracking
+- Achievement badges
+- Leaderboard
+- Time-based challenges
+- Streak counting
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
